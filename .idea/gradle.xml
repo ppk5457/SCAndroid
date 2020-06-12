@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="JDK" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/sc01" />
+            <option value="$PROJECT_DIR$/scu02" />
+            <option value="$PROJECT_DIR$/scu_broadcastreceiver" />
+            <option value="$PROJECT_DIR$/scu_contentprovider" />
+            <option value="$PROJECT_DIR$/scu_force_offline" />
+            <option value="$PROJECT_DIR$/scu_internet" />
+            <option value="$PROJECT_DIR$/scu_litepal" />
+            <option value="$PROJECT_DIR$/scu_server" />
+            <option value="$PROJECT_DIR$/scu_storage" />
+            <option value="$PROJECT_DIR$/scu_thread" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

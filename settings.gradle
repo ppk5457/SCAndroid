@@ -1,0 +1,12 @@
+include ':scu_litepal'
+include ':scu_internet'
+include ':scu_thread'
+include ':scu_force_offline'
+include ':scu_broadcastreceiver'
+include ':scu_server'
+include ':scu_contentprovider'
+include ':scu_storage'
+include ':scu02'
+include ':sc01'
+include ':app'
+rootProject.name = "SCAndroid"
