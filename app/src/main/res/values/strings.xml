@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SCAndroid</string>
+    <string name="username">请输入用户名</string>
+    <string name="password">请输入密码</string>
+    <string name="message">根据《国家级大学生创新创业训练计划管理办法》（教高函〔2019〕13号）和《教育部高教司关于报送2020年国家级大学生创新创业训练计划立项项目的通知》（教高司函〔2020〕4号）精神，为深化“课赛践一体化”育人模式，推动双创教育内涵发展，深化“大学生创新创业训练计划”（以下简称“大创”）项目管理改革，引导高质量创新创业人才培养和项目培育，现启动2020年大创中期评审和省国级推荐立项项目评审工作。</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

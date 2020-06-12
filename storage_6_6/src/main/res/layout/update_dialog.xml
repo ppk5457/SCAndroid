@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/update_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66AC8989"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:text="姓  名："
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtChangeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:text="年  龄："
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtChangeAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入年龄"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:text="部  门："
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtChangeApart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入当前所在部门"
+        android:inputType="textPersonName" />
+</LinearLayout>

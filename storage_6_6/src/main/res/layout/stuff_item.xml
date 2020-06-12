@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameItem"
+        android:layout_width="85dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ageItem"
+        android:layout_width="85dp"
+        android:layout_height="26dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/nameItem"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/apartItem"
+        android:layout_width="85dp"
+        android:layout_height="26dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/ageItem"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgChange"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toEndOf="@+id/apartItem"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/change" />
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imgChange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/delete" />
+</androidx.constraintlayout.widget.ConstraintLayout>

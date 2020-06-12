@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CD56B3D8"
+        android:text="员工信息管理"
+        android:textAlignment="center"
+        android:textColor="#F8F6F6"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:hint="请输入员工姓名"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtAge"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:hint="请输入员工年龄"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtApart"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAge"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="17dp"
+        android:ems="10"
+        android:hint="请输入员工部门"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtApart"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:text="新  增"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-2dp"
+        android:background="#000"
+        android:text="TextView" />
+
+    <ListView
+        android:id="@+id/stuff_list_view"
+        android:layout_width="401dp"
+        android:layout_height="388dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="0dp">
+
+    </ListView>
+
+</RelativeLayout>
